@@ -35,7 +35,6 @@ public class Biblioteca {
 
     // TODO: Documentar este metodo
     //  Test: Comprobar si se ha agregado
-
     /**
      * Agrega un libro a la biblioteca 
      * @param libro Un libro para agregar
@@ -94,6 +93,7 @@ public class Biblioteca {
      * @param autor
      * @return
      */
+    @Deprecated
     public Libro encuentaLibroPorAutor(String autor) {
         for (Libro libro : libros) {
             if (libro.getAutor().equals(autor)) {
